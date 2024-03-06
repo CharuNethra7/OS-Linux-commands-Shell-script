@@ -43,23 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-
+![output](/op1.png)
 
 cat < file2
 ## OUTPUT
 
+![output](/op1.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![output](/op2.png)
+
 comm file1 file2
  ## OUTPUT
 
+![output](/op3.png)
  
 diff file1 file2
 ## OUTPUT
 
+![output](/op4.png)
 
 #Filters
 
@@ -83,17 +87,18 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![output](/op5.png)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+![output](/op5.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![output](/op6.png)
 
 cat < newfile 
 ```
@@ -106,6 +111,7 @@ Hello world
 hello world
  
 grep Hello newfile 
+
 ## OUTPUT
 
 
